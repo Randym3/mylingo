@@ -59,6 +59,9 @@ a.logo::after {
   list-style: none;
   padding: 15px 20px;
 }
+.nav li a {
+  font-family: "CeraGR-Bold";
+}
 header.curvy-bg {
   position: relative;
   background: linear-gradient(
@@ -537,7 +540,7 @@ footer i {
     width: 102%;
     height: 102%;
     -webkit-clip-path: circle(20% at 98% 5%);
-    clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0% 100%);
+    clip-path: circle(20% at 98% 5%);
   }
   section#pricing div {
     flex-direction: row;
